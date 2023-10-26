@@ -1,0 +1,52 @@
+
+body{text-align: center;
+    display: grid;
+    background-color: brown;
+    }
+    #main-menu{
+        background-color: aquamarine;
+        padding: 50px;
+        
+    }
+    #main-menu li a {
+        color: rgb(170, 102, 19);
+        margin: 25px 15px;
+    
+    }
+    .menu-item:hover{
+        background-color: chartreuse;
+        color: crimson;
+    }
+    #main-menu li a {
+    display: block; 
+    
+    padding: 10px;
+    text-decoration: none; 
+    color:darkblue;
+    transition: background-color 0.3s, color 0.3s; 
+    }
+    #main-menu li a:hover {
+    background-color:rgb(135, 144, 222);
+    color: white;
+    }
+    h2 + p {
+    
+    color: lightskyblue;
+    font-weight: bold;
+    }
+    #main-menu li a {
+    
+    text-decoration:underline; 
+    color: orange;
+    
+    }
+    #main-menu > li > a {
+    
+    font-weight: 600; 
+    color: gray; 
+    
+    }
+    
+    
+
+/*# sourceMappingURL=styles.css.map */
